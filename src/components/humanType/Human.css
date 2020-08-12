@@ -1,0 +1,127 @@
+/* Fashion_content ========================================================== */
+.fashion_content{
+    position: absolute;
+    width: 60%;
+    bottom: 30%;
+    left: 19%;
+    text-align: center;
+    
+}
+.fashion_content h2{
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: 700;
+    color: chartreuse;
+}
+.fashion_content h6{
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: rgb(233, 7, 56);
+    
+}
+.button_none{
+    display: none;
+}
+
+/* Fashion_content ========================================================== */
+
+
+/* human_type ====================================*/
+.fashion_type{
+    padding-top: 3%;
+    width: 83%;
+    z-index: 999;
+    position: absolute;
+    top: 130%;
+    left: 9%;
+    background-color: white;
+    border-radius: 10px;
+}
+.fashion h4 ,
+.fashion_male p,
+.f_female p{
+    padding: 15px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+.fashion_cat{
+    text-align: center;
+    font-weight: bold;
+}
+#fashion_content{
+    width:95%;
+    margin: 0 auto;
+}
+
+/* human_type ====================================*/
+
+
+/* Mobile Phone size ----==============================================*/
+@media (max-width: 767px) {
+    .fashion_content{
+        position: absolute;
+        width: 90%;
+        bottom:70%;
+        left: 5%;
+        text-align: center;
+        
+    }
+
+    .fashion_content h2{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .fashion_content h6{
+        font-weight: 700;
+        font-size: 16px;
+        padding-bottom: 10px;
+        color: rgb(233, 7, 56);
+        
+    }
+    .fashion_search{
+        display: none;
+    }
+    .button_none{
+        display: block;
+        background-color: rgb(214, 20, 62);
+        color: white;
+    }
+    .fashion_type{
+        position: relative;
+    }
+    #mobile_male {
+        overflow: hidden;
+        width: 100%;
+    }
+    #mobile_male #mobileleft{
+        float: left;
+        width: 50%;
+    }
+    #mobile_male #mobilemiddle{
+        float: left;
+        width: 50%;
+    }
+    #mobile_male #mobileright{
+        float: left;
+        width: 100%;
+    }
+
+
+    #mobile_female {
+        overflow: hidden;
+        width: 100%;
+    }
+    #mobile_female #mobileleft{
+        float: left;
+        width: 50%;
+    }
+    #mobile_female #mobilemiddle{
+        float: left;
+        width: 50%;
+    }
+    #mobile_female #mobileright{
+        float: left;
+        width: 100%;
+    }
+  }

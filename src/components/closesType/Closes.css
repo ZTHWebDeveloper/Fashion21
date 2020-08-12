@@ -1,0 +1,157 @@
+/* Fashion serarch */
+.all_fashion{
+    background-color: #eee;
+}
+.fashion_body{
+    margin-top: 5%;
+    padding-top: 4%;
+}
+.fashion_title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding:15px 0px;
+}
+.fashion_form{
+    border:2px solid #ddd ;
+    padding: 15px 0px 15px 15px;
+    margin-left: 9%;
+    width: 53%;
+}
+
+.fashion_male{
+    display: inline;
+}
+.fashion_label_male{
+    font-weight: bold;
+    padding-right:10px;
+}
+.fashion_female{
+    display: inline;
+    margin-left: 5%;
+}
+
+.fashion_label_female{
+    font-weight: bold;
+    padding-right:10px;
+}
+.fashion_search{
+    margin-left: 5%;
+}
+
+/* Fashion Search */
+
+
+/* All Product */
+
+.fahion_category p{
+    margin-top: 3%;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+  .all_fashion{
+      margin-top: 3%;
+      padding-bottom: 20px;
+
+  }
+  .fashion_item .fashion_img {
+    position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .fashion_item .fashion_img img {
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+  }
+  
+  .fashion_item .fashion_img .theme_btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px 20px;
+    max-width: 128px;
+  }
+  
+  
+  .fashion_item .fashion_img:hover img {
+    -webkit-transform: scale(1.19);
+    -ms-transform: scale(1.19);
+    transform: scale(1.19);
+  }
+  
+  .fashion_item p{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background-color: rgb(179, 43, 72);
+      color: #ffffff;
+      padding: 7px;
+      position: absolute;
+      bottom: 85%;
+  }
+  
+  
+  .sec_h4 {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 0px;
+  }
+  
+  .fashion_item h5 {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 0px;
+  }
+  
+  .fashion_item h6 {
+    font-weight: bold;
+    color: #444;
+    
+  }
+
+
+/************************** start for Taplet site */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .fashion_body{
+        margin-top: 80%;
+       
+    }
+    .fashion_form{
+        width: 80%;
+        margin: 0 auto;
+       
+    }
+}
+
+/*End tablet site **********************/
+
+/* ######################### start  For phone site  */
+@media (max-width: 767px){
+    .fashion_form{
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px ;
+       
+    }
+    .fashion_female{
+        margin-left: 0;
+    }
+    .fashion_search{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    #mobile_category{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/*################### End mobile site */

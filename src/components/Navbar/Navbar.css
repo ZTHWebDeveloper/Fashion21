@@ -1,0 +1,15 @@
+nav{
+  background-color: rgba(0, 0, 0, 0.582);
+}
+
+.fashion .fashion_name{
+  color: rgb(233, 7, 56);
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.fashion .change_fashion{
+  color: greenyellow;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
